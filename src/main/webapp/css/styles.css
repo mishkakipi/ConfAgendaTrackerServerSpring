@@ -1,0 +1,234 @@
+.btn:focus, .upload-btn:focus{
+  outline: 0 !important;
+}
+
+.menu-btn {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557f) );
+	background:-moz-linear-gradient( center top, #006699 5%, #00557f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557f');
+	background-color:#006699;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #006699;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:auto;
+	text-decoration:none;
+	text-align:center;
+}
+.menu-btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00557f), color-stop(1, #006699) );
+	background:-moz-linear-gradient( center top, #00557f 5%, #006699 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00557f', endColorstr='#006699');
+	background-color:#00557f;
+}
+.menu-btn:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
+body {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.row {
+  margin-top: 80px;
+}
+.btn,
+.a-inside edit 
+{
+
+ text-decoration: none;
+display: inline-block;  
+padding: 2px 8px; 
+margin: 1px;
+color: #FFFFFF;
+border: 1px solid #006699;
+-webkit-border-radius: 3px; 
+-moz-border-radius: 3px; 
+border-radius: 3px; 
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+background-color:#006699; 
+}
+.upload-btn {
+  color: #ffffff;
+  background-color: #F89406;
+  border: none;
+}
+.upload-btn:hover,
+.upload-btn:focus,
+.upload-btn:active,
+.upload-btn.active {
+  color: #ffffff;
+  background-color: #FA8900;
+  border: none;
+}
+
+h4 {
+  padding-bottom: 30px;
+  color: #B8BDC1;
+}
+
+.glyphicon {
+  font-size: 5em;
+  color: #9CA3A9;
+}
+
+h2 {
+  padding-bottom: 30px;
+  color: #FFFFFF;
+}
+
+.panel {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#upload-input {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 450px;
+  }
+}
+
+.datagrid table 
+{ 
+border-collapse: collapse; 
+text-align: left; 
+width: 100%; 
+} 
+
+.datagrid 
+{
+font: normal 12px/150% Arial, Helvetica, sans-serif; 
+background: #fff; 
+overflow: hidden; 
+border: 1px solid #006699; 
+-webkit-border-radius: 3px; 
+-moz-border-radius: 3px; 
+border-radius: 3px; 
+}
+
+.datagrid table td, 
+.datagrid table th 
+{ 
+padding: 3px 10px; 
+}
+
+.datagrid table thead th 
+{
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+background-color:#006699; 
+color:#FFFFFF; 
+font-size: 15px; 
+font-weight: bold; 
+border-left: 1px solid #0070A8; 
+} 
+
+.datagrid table thead th:first-child 
+{ border: none; }
+.datagrid table tbody td 
+{ 
+color: #00496B; 
+border-left: 1px solid #E1EEF4;
+font-size: 12px;
+font-weight: normal; 
+}
+
+.datagrid table tbody .alt td 
+{ 
+background: #E1EEF4; 
+color: #00496B; 
+}
+
+.datagrid table tbody td:first-child 
+{ border-left: none; }
+
+.datagrid table tbody tr:last-child td 
+{ border-bottom: none; }
+
+.datagrid table tfoot td div {
+ border-top: 1px solid #006699;background: #E1EEF4;} 
+ 
+ .datagrid table tfoot td 
+ { padding: 0; font-size: 12px } 
+ 
+ .datagrid table tfoot td div
+ { padding: 2px; }
+ 
+ .datagrid table tfoot td ul 
+ { margin: 0; padding:0; list-style: none; text-align: left; }
+ 
+ .datagrid table tfoot  li 
+ { display: inline; }
+ 
+ .datagrid table tfoot li a,
+ .datagrid table tbody tr td a 
+ { 
+ text-decoration: none;
+display: inline-block;  
+padding: 2px 8px; 
+margin: 1px;
+color: #FFFFFF;
+border: 1px solid #006699;
+-webkit-border-radius: 3px; 
+-moz-border-radius: 3px; 
+border-radius: 3px; 
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+background-color:#006699; 
+}
+
+.datagrid table tfoot ul.active, 
+.datagrid table tfoot ul a:hover,
+.btn:active,
+.btn:hover
+{ 
+text-decoration: none;
+border-color: #006699; 
+color: #FFFFFF; 
+background: none; 
+background-color:#00557F;
+}
+div.dhtmlx_window_active, 
+div.dhx_modal_cover_dv 
+{ position: fixed !important; }

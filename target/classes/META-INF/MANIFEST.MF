@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Conference Agenda Tracker
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Michael
+Implementation-Vendor-Id: com.afeka.advcell.finalproject
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://projects.spring.io/spring-boot/CalMan/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
